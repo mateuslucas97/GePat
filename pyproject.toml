@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "patrimonymanager"
+version = "0.1.0"
+description = "Efficient and intuitive asset management project, providing precise control over assets, maintenance, and usage history. Simplify your asset management with our solution."
+authors = ["Mateus Lucas <mateus.lucas97@yahoo.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.5.3"
+python-dotenv = "^1.0.1"
+pytest = "^8.1.1"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
